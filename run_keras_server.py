@@ -10,7 +10,6 @@ import io
 app = flask.Flask(__name__)
 model = None
 
-
 def load_model():
     """Use global variable model to initialize it with ResNet50 model"""
     global model
